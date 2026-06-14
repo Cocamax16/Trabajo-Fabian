@@ -405,11 +405,11 @@ def recibir_datos_adms(request):
             errors='ignore'
         )
 
-        with open(
-            r"C:\Users\I5\Desktop\eventos_reloj.log",
-            "a",
-            encoding="utf-8"
-        ) as f:
+        #with open(
+           # r"C:\Users\I5\Desktop\eventos_reloj.log",
+          #  "a",
+         #   encoding="utf-8"
+        #) as f:
 
             f.write(
                 "\n========================================\n"
