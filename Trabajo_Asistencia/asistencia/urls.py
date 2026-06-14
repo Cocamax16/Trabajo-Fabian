@@ -16,7 +16,7 @@ urlpatterns = [
     path('reporte/', reporte_general),
     path('empleado/<int:empleado_id>/excel/', exportar_excel),
     path('reporte/excel/', exportar_reporte_excel),
-
+    path('importar-datos/',importar_datos),
     path('iclock/cdata', recibir_datos_adms),
     path('iclock/getrequest', recibir_datos_adms),
 ]
