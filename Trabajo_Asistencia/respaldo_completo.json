@@ -1,0 +1,1325 @@
+[
+{
+    "model": "asistencia.empleado",
+    "pk": 1,
+    "fields": {
+        "nombre": "Administrador",
+        "codigo": "3",
+        "id_biometrico": 3
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 2,
+    "fields": {
+        "nombre": "Jesus Herminio",
+        "codigo": "2",
+        "id_biometrico": 2
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 3,
+    "fields": {
+        "nombre": "Andree Lopez",
+        "codigo": "1",
+        "id_biometrico": 1
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 4,
+    "fields": {
+        "nombre": "Josue Daniel",
+        "codigo": "4",
+        "id_biometrico": 4
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 5,
+    "fields": {
+        "nombre": "Ovidio Santiago",
+        "codigo": "5",
+        "id_biometrico": 5
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 6,
+    "fields": {
+        "nombre": "fff",
+        "codigo": "11",
+        "id_biometrico": 11
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 7,
+    "fields": {
+        "nombre": "Selvin Raymundo",
+        "codigo": "12",
+        "id_biometrico": 12
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 8,
+    "fields": {
+        "nombre": "Eduardo Gomez",
+        "codigo": "13",
+        "id_biometrico": 13
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 9,
+    "fields": {
+        "nombre": "Andres Raymundo",
+        "codigo": "15",
+        "id_biometrico": 15
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 10,
+    "fields": {
+        "nombre": "Juan Carlos",
+        "codigo": "21",
+        "id_biometrico": 21
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 11,
+    "fields": {
+        "nombre": "Victor Armando",
+        "codigo": "25",
+        "id_biometrico": 25
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 12,
+    "fields": {
+        "nombre": "Rony Alvarado",
+        "codigo": "28",
+        "id_biometrico": 28
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 13,
+    "fields": {
+        "nombre": "Edwin Antonio",
+        "codigo": "30",
+        "id_biometrico": 30
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 14,
+    "fields": {
+        "nombre": "Edgar Humberto",
+        "codigo": "31",
+        "id_biometrico": 31
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 15,
+    "fields": {
+        "nombre": "Anthony Marco",
+        "codigo": "40",
+        "id_biometrico": 40
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 16,
+    "fields": {
+        "nombre": "Over Diamedes",
+        "codigo": "43",
+        "id_biometrico": 43
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 17,
+    "fields": {
+        "nombre": "Ericka Rosmeri",
+        "codigo": "49",
+        "id_biometrico": 49
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 18,
+    "fields": {
+        "nombre": "Silvia Marisol",
+        "codigo": "52",
+        "id_biometrico": 52
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 19,
+    "fields": {
+        "nombre": "Magdalena",
+        "codigo": "54",
+        "id_biometrico": 54
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 20,
+    "fields": {
+        "nombre": "Carlos Misael",
+        "codigo": "55",
+        "id_biometrico": 55
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 21,
+    "fields": {
+        "nombre": "Maria Candelario",
+        "codigo": "62",
+        "id_biometrico": 62
+    }
+},
+{
+    "model": "asistencia.empleado",
+    "pk": 22,
+    "fields": {
+        "nombre": "Mario Augusto",
+        "codigo": "63",
+        "id_biometrico": 63
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 10,
+    "fields": {
+        "empleado": 22,
+        "fecha_hora": "2026-06-11T22:48:32",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 14,
+    "fields": {
+        "empleado": 3,
+        "fecha_hora": "2026-06-11T23:16:09",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 15,
+    "fields": {
+        "empleado": 3,
+        "fecha_hora": "2026-06-11T23:16:17",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 16,
+    "fields": {
+        "empleado": 3,
+        "fecha_hora": "2026-06-11T23:16:25",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 17,
+    "fields": {
+        "empleado": 6,
+        "fecha_hora": "2026-06-11T23:16:33",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 18,
+    "fields": {
+        "empleado": 6,
+        "fecha_hora": "2026-06-11T23:16:39",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 19,
+    "fields": {
+        "empleado": 6,
+        "fecha_hora": "2026-06-11T23:16:48",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 20,
+    "fields": {
+        "empleado": 19,
+        "fecha_hora": "2026-06-11T23:14:51",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 21,
+    "fields": {
+        "empleado": 12,
+        "fecha_hora": "2026-06-12T00:39:26",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 22,
+    "fields": {
+        "empleado": 7,
+        "fecha_hora": "2026-06-12T00:48:56",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 23,
+    "fields": {
+        "empleado": 9,
+        "fecha_hora": "2026-06-12T00:49:23",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 24,
+    "fields": {
+        "empleado": 4,
+        "fecha_hora": "2026-06-11T23:49:39",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 25,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-12T00:49:46",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 26,
+    "fields": {
+        "empleado": 8,
+        "fecha_hora": "2026-06-12T00:52:26",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 27,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-11T23:54:55",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 28,
+    "fields": {
+        "empleado": 16,
+        "fecha_hora": "2026-06-11T23:56:40",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 29,
+    "fields": {
+        "empleado": 5,
+        "fecha_hora": "2026-06-11T23:57:50",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 30,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-11T23:59:56",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 31,
+    "fields": {
+        "empleado": 22,
+        "fecha_hora": "2026-06-12T00:01:44",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 32,
+    "fields": {
+        "empleado": 18,
+        "fecha_hora": "2026-06-12T00:02:07",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 33,
+    "fields": {
+        "empleado": 21,
+        "fecha_hora": "2026-06-12T00:02:28",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 34,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-12T00:04:16",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 35,
+    "fields": {
+        "empleado": 11,
+        "fecha_hora": "2026-06-12T00:11:32",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 36,
+    "fields": {
+        "empleado": 10,
+        "fecha_hora": "2026-06-12T00:14:44",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 37,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-12T00:44:04",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 38,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-12T01:54:49",
+        "tipo": "ENTRADA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 39,
+    "fields": {
+        "empleado": 16,
+        "fecha_hora": "2026-06-12T12:37:37",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 40,
+    "fields": {
+        "empleado": 19,
+        "fecha_hora": "2026-06-12T12:38:15",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 41,
+    "fields": {
+        "empleado": 4,
+        "fecha_hora": "2026-06-12T12:39:22",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 42,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-12T12:44:52",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 43,
+    "fields": {
+        "empleado": 5,
+        "fecha_hora": "2026-06-12T12:45:01",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 44,
+    "fields": {
+        "empleado": 9,
+        "fecha_hora": "2026-06-12T12:48:46",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 45,
+    "fields": {
+        "empleado": 7,
+        "fecha_hora": "2026-06-12T12:48:52",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 46,
+    "fields": {
+        "empleado": 18,
+        "fecha_hora": "2026-06-12T12:49:03",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 47,
+    "fields": {
+        "empleado": 21,
+        "fecha_hora": "2026-06-12T12:50:41",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 48,
+    "fields": {
+        "empleado": 22,
+        "fecha_hora": "2026-06-12T12:55:17",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 49,
+    "fields": {
+        "empleado": 10,
+        "fecha_hora": "2026-06-12T12:58:32",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 50,
+    "fields": {
+        "empleado": 8,
+        "fecha_hora": "2026-06-12T12:02:40",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 51,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-12T13:12:10",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 52,
+    "fields": {
+        "empleado": 11,
+        "fecha_hora": "2026-06-12T13:12:16",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 53,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-12T12:17:58",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 54,
+    "fields": {
+        "empleado": 12,
+        "fecha_hora": "2026-06-12T12:28:48",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 55,
+    "fields": {
+        "empleado": 11,
+        "fecha_hora": "2026-06-12T12:56:43",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 56,
+    "fields": {
+        "empleado": 11,
+        "fecha_hora": "2026-06-12T14:09:06",
+        "tipo": "ENTRADA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 57,
+    "fields": {
+        "empleado": 5,
+        "fecha_hora": "2026-06-12T13:59:19",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 58,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-12T13:59:38",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 59,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-12T14:01:28",
+        "tipo": "SALIDA_TE"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 60,
+    "fields": {
+        "empleado": 21,
+        "fecha_hora": "2026-06-12T14:03:27",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 61,
+    "fields": {
+        "empleado": 19,
+        "fecha_hora": "2026-06-12T14:06:02",
+        "tipo": "SALIDA_TE"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 62,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-12T15:06:43",
+        "tipo": "ENTRADA_TE"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 63,
+    "fields": {
+        "empleado": 5,
+        "fecha_hora": "2026-06-12T15:10:24",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 64,
+    "fields": {
+        "empleado": 19,
+        "fecha_hora": "2026-06-12T15:13:11",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 65,
+    "fields": {
+        "empleado": 16,
+        "fecha_hora": "2026-06-12T14:25:41",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 66,
+    "fields": {
+        "empleado": 21,
+        "fecha_hora": "2026-06-12T15:27:19",
+        "tipo": "ENTRADA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 67,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-12T15:27:53",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 68,
+    "fields": {
+        "empleado": 16,
+        "fecha_hora": "2026-06-12T15:32:38",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 69,
+    "fields": {
+        "empleado": 22,
+        "fecha_hora": "2026-06-12T15:12:45",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 70,
+    "fields": {
+        "empleado": 22,
+        "fecha_hora": "2026-06-12T16:18:00",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 71,
+    "fields": {
+        "empleado": 7,
+        "fecha_hora": "2026-06-12T15:35:19",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 72,
+    "fields": {
+        "empleado": 7,
+        "fecha_hora": "2026-06-12T16:40:33",
+        "tipo": "ENTRADA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 73,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-12T17:21:12",
+        "tipo": "SALIDA_TE"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 74,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-12T18:27:12",
+        "tipo": "ENTRADA_TE"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 75,
+    "fields": {
+        "empleado": 11,
+        "fecha_hora": "2026-06-12T17:32:34",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 76,
+    "fields": {
+        "empleado": 7,
+        "fecha_hora": "2026-06-12T17:58:41",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 77,
+    "fields": {
+        "empleado": 4,
+        "fecha_hora": "2026-06-12T18:00:50",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 78,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-12T18:02:04",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 81,
+    "fields": {
+        "empleado": 18,
+        "fecha_hora": "2026-06-12T18:11:48",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 82,
+    "fields": {
+        "empleado": 21,
+        "fecha_hora": "2026-06-12T18:14:03",
+        "tipo": "SALIDA_DESCANSO"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 110,
+    "fields": {
+        "empleado": 10,
+        "fecha_hora": "2026-06-12T18:14:34",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 115,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-12T19:34:30",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 116,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-12T19:22:14",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 118,
+    "fields": {
+        "empleado": 8,
+        "fecha_hora": "2026-06-13T06:01:06",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 119,
+    "fields": {
+        "empleado": 4,
+        "fecha_hora": "2026-06-13T05:38:02",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 120,
+    "fields": {
+        "empleado": 5,
+        "fecha_hora": "2026-06-13T12:01:35",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 121,
+    "fields": {
+        "empleado": 4,
+        "fecha_hora": "2026-06-13T12:03:41",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 122,
+    "fields": {
+        "empleado": 9,
+        "fecha_hora": "2026-06-13T12:04:34",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 123,
+    "fields": {
+        "empleado": 7,
+        "fecha_hora": "2026-06-13T12:04:40",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 124,
+    "fields": {
+        "empleado": 18,
+        "fecha_hora": "2026-06-13T12:05:39",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 125,
+    "fields": {
+        "empleado": 6,
+        "fecha_hora": "2026-06-13T12:10:19",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 126,
+    "fields": {
+        "empleado": 21,
+        "fecha_hora": "2026-06-13T12:10:57",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 127,
+    "fields": {
+        "empleado": 7,
+        "fecha_hora": "2026-06-13T12:11:56",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 128,
+    "fields": {
+        "empleado": 9,
+        "fecha_hora": "2026-06-13T12:12:09",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 129,
+    "fields": {
+        "empleado": 18,
+        "fecha_hora": "2026-06-13T12:13:41",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 130,
+    "fields": {
+        "empleado": 21,
+        "fecha_hora": "2026-06-13T12:19:42",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 131,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-13T12:33:12",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 132,
+    "fields": {
+        "empleado": 11,
+        "fecha_hora": "2026-06-13T12:45:05",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 133,
+    "fields": {
+        "empleado": 16,
+        "fecha_hora": "2026-06-13T12:57:01",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 134,
+    "fields": {
+        "empleado": 5,
+        "fecha_hora": "2026-06-13T12:58:34",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 135,
+    "fields": {
+        "empleado": 22,
+        "fecha_hora": "2026-06-13T13:01:14",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 136,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-13T13:04:19",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 137,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-13T13:04:27",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 138,
+    "fields": {
+        "empleado": 16,
+        "fecha_hora": "2026-06-13T13:04:36",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 139,
+    "fields": {
+        "empleado": 14,
+        "fecha_hora": "2026-06-13T13:11:21",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 140,
+    "fields": {
+        "empleado": 14,
+        "fecha_hora": "2026-06-13T13:25:18",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 141,
+    "fields": {
+        "empleado": 11,
+        "fecha_hora": "2026-06-13T13:47:24",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 142,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-13T13:56:46",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 143,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-13T14:03:57",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 144,
+    "fields": {
+        "empleado": 22,
+        "fecha_hora": "2026-06-13T14:04:32",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 145,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-13T14:11:36",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 146,
+    "fields": {
+        "empleado": 22,
+        "fecha_hora": "2026-06-13T16:58:53",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 147,
+    "fields": {
+        "empleado": 4,
+        "fecha_hora": "2026-06-13T16:59:54",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 148,
+    "fields": {
+        "empleado": 5,
+        "fecha_hora": "2026-06-13T17:01:48",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 149,
+    "fields": {
+        "empleado": 7,
+        "fecha_hora": "2026-06-13T17:02:04",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 150,
+    "fields": {
+        "empleado": 9,
+        "fecha_hora": "2026-06-13T17:02:33",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 151,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-13T17:03:11",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 152,
+    "fields": {
+        "empleado": 20,
+        "fecha_hora": "2026-06-13T17:03:20",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 153,
+    "fields": {
+        "empleado": 18,
+        "fecha_hora": "2026-06-13T17:05:21",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 154,
+    "fields": {
+        "empleado": 21,
+        "fecha_hora": "2026-06-13T17:05:45",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 155,
+    "fields": {
+        "empleado": 14,
+        "fecha_hora": "2026-06-13T17:07:33",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 156,
+    "fields": {
+        "empleado": 19,
+        "fecha_hora": "2026-06-13T17:09:30",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 157,
+    "fields": {
+        "empleado": 16,
+        "fecha_hora": "2026-06-13T17:10:05",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 158,
+    "fields": {
+        "empleado": 12,
+        "fecha_hora": "2026-06-13T17:49:43",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 159,
+    "fields": {
+        "empleado": 8,
+        "fecha_hora": "2026-06-13T17:55:58",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 160,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-13T17:57:12",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 161,
+    "fields": {
+        "empleado": 15,
+        "fecha_hora": "2026-06-13T18:04:11",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 162,
+    "fields": {
+        "empleado": 11,
+        "fecha_hora": "2026-06-13T18:04:16",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 163,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-13T19:07:36",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 164,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-13T19:14:29",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 165,
+    "fields": {
+        "empleado": 12,
+        "fecha_hora": "2026-06-14T04:48:49",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 166,
+    "fields": {
+        "empleado": 13,
+        "fecha_hora": "2026-06-14T04:49:10",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 167,
+    "fields": {
+        "empleado": 8,
+        "fecha_hora": "2026-06-14T04:49:16",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 168,
+    "fields": {
+        "empleado": 19,
+        "fecha_hora": "2026-06-14T05:47:59",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 169,
+    "fields": {
+        "empleado": 14,
+        "fecha_hora": "2026-06-14T05:55:52",
+        "tipo": "ENTRADA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 170,
+    "fields": {
+        "empleado": 19,
+        "fecha_hora": "2026-06-14T08:18:11",
+        "tipo": "SALIDA"
+    }
+},
+{
+    "model": "asistencia.marcacion",
+    "pk": 171,
+    "fields": {
+        "empleado": 19,
+        "fecha_hora": "2026-06-14T08:30:46",
+        "tipo": "ENTRADA"
+    }
+}
+]
