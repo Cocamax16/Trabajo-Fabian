@@ -6,6 +6,7 @@ from .views import (
     exportar_excel,
     reporte_general,
     exportar_reporte_excel,
+    importar_datos,
     recibir_datos_adms,
 )
 
