@@ -373,6 +373,13 @@ def exportar_reporte_excel(request):
 @csrf_exempt
 def recibir_datos_adms(request):
 
+    print("================================")
+    print("NUEVA PETICION ADMS")
+    print("METODO:", request.method)
+    print("URL:", request.get_full_path())
+    print("HEADERS:", dict(request.headers))
+    print("================================")
+
     numero_serie = request.GET.get(
         'SN',
         'Desconocido'
