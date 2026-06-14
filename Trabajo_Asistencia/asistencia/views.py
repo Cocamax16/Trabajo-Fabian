@@ -407,47 +407,6 @@ def recibir_datos_adms(request):
             errors='ignore'
         )
 
-        #with open(
-           # r"C:\Users\I5\Desktop\eventos_reloj.log",
-          #  "a",
-         #   encoding="utf-8"
-        #) as f:
-
-            f.write(
-                "\n========================================\n"
-            )
-
-            f.write(
-                f"FECHA: {fecha_recepcion}\n"
-            )
-
-            f.write(
-                f"IP: {ip_remota}\n"
-            )
-
-            f.write(
-                f"SERIE: {numero_serie}\n"
-            )
-
-            f.write(
-                f"TABLA: {tabla}\n"
-            )
-
-            f.write(
-                "METODO: POST\n\n"
-            )
-
-            f.write(
-                "DATOS RECIBIDOS:\n"
-            )
-
-            f.write(
-                datos_crudos
-            )
-
-            f.write(
-                "\n========================================\n"
-            )
 
         print(
             f"\n========================================"
