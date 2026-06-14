@@ -9,6 +9,8 @@ from django.views.decorators.csrf import csrf_exempt
 from datetime import datetime
 from django.utils import timezone
 from datetime import timedelta
+from django.core.management import call_command
+from django.http import HttpResponse
 
 def inicio(request):
 
@@ -522,3 +524,23 @@ def recibir_datos_adms(request):
         return HttpResponse("OK\n")
 
     return HttpResponse("OK\n")
+
+
+
+def importar_datos(request):
+
+    try:
+        call_command(
+            'loaddata',
+            'respaldo_completo.json'
+        )
+
+        return HttpResponse(
+            "Datos importados correctamente"
+        )
+
+    except Exception as e:
+
+        return HttpResponse(
+            f"Error: {e}"
+        )
